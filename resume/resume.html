@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Great Onosetale Ojietohamen, Software Engineer and Security Researcher</title>
+<style>
+  @page { size: A4; margin: 11mm 12mm 10mm 12mm; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: Lato, "Liberation Sans", Arial, sans-serif;
+    font-size: 8.9pt;
+    line-height: 1.29;
+    color: #16191d;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: #0f6b60; text-decoration: none; }
+
+  header { border-bottom: 2px solid #16191d; padding-bottom: 5pt; margin-bottom: 7pt; }
+  h1 {
+    font-size: 18.5pt; font-weight: 900; letter-spacing: .6pt;
+    margin: 0 0 1pt; text-transform: uppercase;
+  }
+  .role { font-size: 10pt; font-weight: 600; color: #0f6b60; margin-bottom: 4pt; }
+  .contact { font-size: 8.7pt; color: #3d444d; }
+  .contact span { white-space: nowrap; }
+  .sep { color: #a8b0b8; padding: 0 3pt; }
+
+  h2 {
+    font-size: 8.6pt; font-weight: 900; letter-spacing: 1.5pt; text-transform: uppercase;
+    color: #16191d; margin: 6.5pt 0 2.5pt; padding-bottom: 1.5pt;
+    border-bottom: .8pt solid #c9d0d6;
+  }
+  section:first-of-type h2 { margin-top: 2pt; }
+
+  .profile { margin: 0; text-align: justify; }
+
+  .job { margin-bottom: 5pt; }
+  .job:last-child { margin-bottom: 0; }
+  .job-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8pt; }
+  .job-title { font-weight: 700; font-size: 9.3pt; }
+  .job-when { font-size: 8.4pt; color: #5b636c; white-space: nowrap; }
+  .job-where { font-size: 8.9pt; color: #3d444d; font-style: italic; margin-bottom: 2pt; }
+
+  ul { margin: 0; padding-left: 11pt; }
+  li { margin-bottom: 1.1pt; text-align: justify; }
+  li::marker { color: #0f6b60; }
+
+  .proj { margin-bottom: 1.6pt; }
+  .proj b { font-weight: 700; }
+
+  .skills p, .certs p { margin: 0 0 2pt; }
+  .skills b, .certs b { font-weight: 700; }
+
+  .edu-line { font-weight: 700; font-size: 9.3pt; }
+  .edu-sub { color: #3d444d; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Great Onosetale Ojietohamen</h1>
+  <div class="role">Software Engineer and Security Researcher</div>
+  <div class="contact">
+    <span>greatojies@gmail.com</span><span class="sep">|</span>
+    <span><a href="https://github.com/G-ojies">github.com/G-ojies</a></span><span class="sep">|</span>
+    <span><a href="https://www.linkedin.com/in/greatojietohamen">linkedin.com/in/greatojietohamen</a></span><span class="sep">|</span>
+    <span><a href="https://greatojies.onrender.com">greatojies.onrender.com</a></span><span class="sep">|</span>
+    <span>Benin City, Nigeria</span>
+  </div>
+</header>
+
+<section>
+  <h2>Profile</h2>
+  <p class="profile">
+    Software engineer and security researcher who ships systems end to end and then takes other
+    people's apart. More than twenty open-source projects across Solana, Sui and Bitcoin, alongside
+    documented findings filed against live protocols and SDKs. Writes code and reports for reviewers:
+    reproducible, honest about their limits, and still working on a low-end phone and a weak connection.
+  </p>
+</section>
+
+<section>
+  <h2>Experience</h2>
+
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title">Independent Software Engineer and Security Researcher</div>
+      <div class="job-when">2024 to present</div>
+    </div>
+    <div class="job-where">GreYat Labs, self-directed, Remote</div>
+    <ul>
+      <li>Designed and published more than twenty open-source projects across on-chain
+        infrastructure, applied AI and data tooling, every one of them public on GitHub.</li>
+      <li>Built role-based access control as a Solana program in Rust and Anchor, every record a PDA
+        and every guard enforced by the runtime, and submitted it to the Solana Foundation Nigeria
+        grant programme as a budgeted three-milestone proposal.</li>
+      <li>Ran independent security reviews of third-party codebases and delivered structured
+        findings reports: sixteen defects in a Rust confidential-computing SDK, eight in an
+        agent-orchestration framework, and a mainnet fund-loss review of a privacy pool. Every
+        finding carried a reproduction, an impact assessment and a suggested fix.</li>
+      <li>Shipped a Solana transaction stack over Yellowstone gRPC with Jito bundle submission,
+        reconnect under exponential backoff, and bounded-queue backpressure.</li>
+      <li>Implemented a 2-of-3 FROST threshold Bitcoin wallet producing BIP&#8209;340 signatures,
+        covering distributed key generation, share verification and aggregation.</li>
+      <li>Contributed two reviewed plugins to an open-source AI agent runtime and diagnosed a silent
+        interface-version mismatch that had been stopping plugins loading on the host.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title">Founder and Developer</div>
+      <div class="job-when">2026</div>
+    </div>
+    <div class="job-where">GreYat Study Guide, University of Benin</div>
+    <ul>
+      <li>Built and deployed a free, offline-first progressive web application of worked
+        past-question guides for six university courses, drawn from lecturers' own materials.</li>
+      <li>Engineered full offline capability and installable delivery, so it stays usable through
+        power and network outages on low-specification devices, and turned unstructured course
+        material into flashcards, a three-state revision tracker and condensed revision sheets.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title">Researcher and Author</div>
+      <div class="job-when">2026</div>
+    </div>
+    <div class="job-where">Data Science for Medical Laboratory Science</div>
+    <ul>
+      <li>Compiled and published an open learning library connecting data science to laboratory
+        informatics, quality-control statistics, method validation and the clinical validation of
+        predictive models.</li>
+      <li>Verified every citation by automated link checking: 150 sources audited, 139 machine
+        verified and the rest confirmed by hand, with the methodology documented so it can be rerun.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title">Freelance Web Developer</div>
+      <div class="job-when">2022 to present</div>
+    </div>
+    <div class="job-where">Remote and self-employed</div>
+    <ul>
+      <li>Designed, built and maintained responsive, search-optimised, security-hardened sites for
+        small businesses and personal brands, owning requirements, delivery and maintenance.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Selected Projects</h2>
+  <div class="proj"><b>FrostVault.</b> BTC-collateralised lending on Sui in Move, liquidated through Deepbook.</div>
+  <div class="proj"><b>BREACH.</b> AI-native hacking game on 0G: targets and adjudication both run on decentralised inference.</div>
+  <div class="proj"><b>ChainSentry.</b> Bitcoin forensics that walks output addresses N hops deep with loop detection.</div>
+  <div class="proj"><b>Sharp Signal.</b> Odds agent on the live TxODDS feed, proving each signal on Solana before it acts.</div>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="edu-line">B.Sc. Computer Science, University of Benin, Nigeria</div>
+  <div class="edu-sub">Coursework: artificial intelligence, algorithms and data structures, data
+    management, computer networks, discrete structures.</div>
+</section>
+
+<section class="certs">
+  <h2>Certifications</h2>
+  <p>Cybersecurity Certification, ICSI, United Kingdom&nbsp;&nbsp;|&nbsp;&nbsp;IT Support, Cybersecurity
+    and Technical Foundations, Google, four certificates&nbsp;&nbsp;|&nbsp;&nbsp;Front-End Development,
+    Meta&nbsp;&nbsp;|&nbsp;&nbsp;Bitcoin for Developers I, Saylor Academy, graded 100%</p>
+</section>
+
+<section class="skills">
+  <h2>Technical Skills</h2>
+  <p><b>Languages.</b> Rust, TypeScript and JavaScript, Python, C++, Move, SQL, HTML and CSS</p>
+  <p><b>On-chain.</b> Solana and Anchor, Sui and Move, Bitcoin (BIP&#8209;340, FROST, SPV), Solidity, Foundry, Hardhat</p>
+  <p><b>Web and systems.</b> React, Next.js, Node.js, Tailwind, PostgreSQL, SQLite, Docker, Linux, Git and GitHub</p>
+  <p><b>Practice.</b> Security review and findings reporting, applied AI and LLM integration, data pipelines, technical writing</p>
+</section>
+
+</body>
+</html>

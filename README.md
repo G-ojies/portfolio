@@ -27,8 +27,10 @@ Every content block is filled in with real values. What still needs your input:
   visitor's mail client pre-filled with their message instead of POSTing to a
   dead URL. Swap in a real endpoint and the normal POST takes over, no code
   change needed.
-- `profile.resumeLink` and `socials.resume` are both `#`. Point them at a hosted
-  CV (or drop `resume.pdf` into `public/` and use `/resume.pdf`).
+Nothing else is a placeholder. The resume served at `/resume.pdf` is generated,
+not hand-dropped: edit `resume/resume.html` and run `resume/build.sh`, which
+prints it through headless Chrome to `public/resume.pdf`. It is written to fit
+one A4 page, so check the page count after adding to it.
 
 Then swap the placeholder art:
 
