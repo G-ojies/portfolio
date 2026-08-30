@@ -2,7 +2,7 @@
 # site up with these settings, no dashboard fiddling.
 services:
   - type: web
-    name: greyat-portfolio
+    name: greatojies
     runtime: static
     branch: main
     buildCommand: npm ci && npm run build
