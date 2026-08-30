@@ -24,7 +24,7 @@ export default {
       },
       backgroundImage: {
         about_new: "url('./assets/about.jpg')",
-        service_new: "url('./assets/service.svg')",
+        service_new: "url('./assets/service.jpg')",
       },
     },
   },

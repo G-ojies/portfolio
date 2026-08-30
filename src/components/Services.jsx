@@ -16,12 +16,18 @@ const Services = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.3 }}
-            className="text-center flex-1 lg:bg-service_new bg-cover mix-blend-luminosity lg:max-w-[600px] lg:bg-bottom lg:mb-0 lg:bg-no-repeat dark:lg:mix-blend-luminosity rounded-2xl lg:hover:scale-110 duration-300"
+            className="text-center flex-1 lg:bg-service_new bg-cover lg:max-w-[600px] lg:bg-center lg:mb-0 lg:bg-no-repeat rounded-2xl overflow-hidden lg:hover:scale-110 duration-300"
           >
-            <h2 className="text-teal-500 lg:text-white font-bold text-2xl uppercase mb-6 pt-4 lg:text-5xl">
-              {services.heading}
-            </h2>
-            <h3 className="dark:text-white text-md mb-16 lg:text-xl lg:text-white">{services.subheading}</h3>
+            {/* The art behind this panel is busy, so the heading sits on its own
+                dark scrim on desktop to stay legible. */}
+            <div className="lg:bg-gradient-to-b lg:from-black/80 lg:via-black/50 lg:to-transparent lg:pb-28">
+              <h2 className="text-teal-500 lg:text-white font-bold text-2xl uppercase mb-6 pt-4 lg:text-5xl lg:pt-10 lg:drop-shadow-[0_2px_6px_rgba(0,0,0,0.9)]">
+                {services.heading}
+              </h2>
+              <h3 className="dark:text-white text-md mb-16 lg:text-xl lg:text-white lg:mb-0 lg:drop-shadow-[0_2px_6px_rgba(0,0,0,0.9)]">
+                {services.subheading}
+              </h3>
+            </div>
           </motion.div>
 
           <motion.div
