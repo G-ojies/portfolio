@@ -1,0 +1,20 @@
+# Render blueprint. Point Render at this repo (New > Blueprint) and it stands the
+# site up with these settings, no dashboard fiddling.
+services:
+  - type: web
+    name: greyat-portfolio
+    runtime: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
+    pullRequestPreviewsEnabled: false
+    # Single-page app: every path serves index.html so a deep link or a refresh
+    # on /#about does not 404.
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    headers:
+      # Vite fingerprints everything under /assets, so it can be cached forever.
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable

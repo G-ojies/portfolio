@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" role="img" aria-label="Smart TX Stack">
+  <rect width="600" height="340" fill="#0f4a45"/>
+  <g stroke="#5eead4" stroke-opacity=".16" stroke-width="1" fill="none">
+    <path d="M0 250h600M0 285h600M0 215h600"/>
+    <circle cx="512" cy="86" r="58"/>
+    <circle cx="512" cy="86" r="34"/>
+  </g>
+  <rect x="44" y="70" width="54" height="4" rx="2" fill="#5eead4"/>
+  <text x="44" y="140" font-family="Raleway, Helvetica, sans-serif" font-weight="700" font-size="46"
+        fill="#ffffff">Smart TX Stack</text>
+  <text x="44" y="180" font-family="Raleway, Helvetica, sans-serif" font-weight="500" font-size="20"
+        fill="#5eead4" fill-opacity=".95">Yellowstone gRPC · Jito</text>
+</svg>

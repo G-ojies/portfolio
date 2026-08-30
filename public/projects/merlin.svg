@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" role="img" aria-label="Merlin Wallet">
+  <rect width="600" height="340" fill="#5c3708"/>
+  <g stroke="#fcd34d" stroke-opacity=".16" stroke-width="1" fill="none">
+    <path d="M0 250h600M0 285h600M0 215h600"/>
+    <circle cx="512" cy="86" r="58"/>
+    <circle cx="512" cy="86" r="34"/>
+  </g>
+  <rect x="44" y="70" width="54" height="4" rx="2" fill="#fcd34d"/>
+  <text x="44" y="140" font-family="Raleway, Helvetica, sans-serif" font-weight="700" font-size="46"
+        fill="#ffffff">Merlin Wallet</text>
+  <text x="44" y="180" font-family="Raleway, Helvetica, sans-serif" font-weight="500" font-size="20"
+        fill="#fcd34d" fill-opacity=".95">FROST 2-of-3 · Bitcoin</text>
+</svg>
