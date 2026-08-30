@@ -37,7 +37,7 @@ Then swap the placeholder art:
 | Hero image | `src/assets/greyat-labs-logo.jpg` | The GreYat Labs mark, shown in both themes (larger in light, smaller in dark) |
 | About image | `src/assets/about.jpg` | Tall portrait art, `bg-center` so the figure stays in frame; capped at 320px on phones |
 | Services background | `src/assets/service.jpg` | Compass-and-arrow art, shown full colour on desktop only; the heading sits on a dark gradient scrim so it stays readable over it |
-| Project thumbnails | `public/projects/` | One per project, named after it; referenced by path from `content.js` |
+| Project thumbnails | `public/projects/` | One per project, named after it; referenced by path from `content.js`. Projects with a live URL use a real screenshot of the site (`.jpg`); code-only projects use a generated editor card (`.svg`) carrying a genuine excerpt from that repo's source. Re-shoot a screenshot when a site changes |
 | Skill logos | `public/skills/` | Lettermarks in each tech's brand colour; swap for real brand SVGs (simple-icons / devicon) when you want |
 | Favicon | `public/favicon.svg` | |
 

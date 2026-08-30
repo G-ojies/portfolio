@@ -1,13 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" role="img" aria-label="On-Chain RBAC">
-  <rect width="600" height="340" fill="#3b1170"/>
-  <g stroke="#c4a2ff" stroke-opacity=".16" stroke-width="1" fill="none">
-    <path d="M0 250h600M0 285h600M0 215h600"/>
-    <circle cx="512" cy="86" r="58"/>
-    <circle cx="512" cy="86" r="34"/>
-  </g>
-  <rect x="44" y="70" width="54" height="4" rx="2" fill="#c4a2ff"/>
-  <text x="44" y="140" font-family="Raleway, Helvetica, sans-serif" font-weight="700" font-size="46"
-        fill="#ffffff">On-Chain RBAC</text>
-  <text x="44" y="180" font-family="Raleway, Helvetica, sans-serif" font-weight="500" font-size="20"
-        fill="#c4a2ff" fill-opacity=".95">Anchor · Rust · Solana</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" role="img" aria-label="onchain-rbac source">
+<defs><linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".07"/><stop offset="1" stop-color="#ffffff" stop-opacity=".02"/>
+  </linearGradient></defs>
+<rect width="600" height="340" fill="#12091c"/>
+<rect width="600" height="44" fill="url(#bar)"/>
+<rect y="43" width="600" height="1" fill="#ffffff" fill-opacity=".08"/>
+<circle cx="26" cy="22" r="5.5" fill="#ff5f57" fill-opacity=".75"/>
+<circle cx="46" cy="22" r="5.5" fill="#febc2e" fill-opacity=".75"/>
+<circle cx="66" cy="22" r="5.5" fill="#28c840" fill-opacity=".75"/>
+<text x="96" y="27" font-family="ui-monospace, DejaVu Sans Mono, monospace" font-size="13" fill="#ffffff" fill-opacity=".55">programs/onchain-rbac/src/lib.rs</text>
+<text x="576" y="27" text-anchor="end" font-family="Raleway, Helvetica, sans-serif" font-size="12" font-weight="600" letter-spacing="1.2" fill="#a855f7" fill-opacity=".9">ANCHOR · SOLANA</text>
+<text x="26" y="78" xml:space="preserve" font-family="ui-monospace, DejaVu Sans Mono, monospace" font-size="15.5" fill="#c8d3e0"><tspan fill="#5c6773">#[program]</tspan></text>
+<text x="26" y="105" xml:space="preserve" font-family="ui-monospace, DejaVu Sans Mono, monospace" font-size="15.5" fill="#c8d3e0"><tspan fill="#a855f7">pub</tspan><tspan> </tspan><tspan fill="#a855f7">mod</tspan><tspan> onchain_rbac {</tspan></text>
+<text x="26" y="132" xml:space="preserve" font-family="ui-monospace, DejaVu Sans Mono, monospace" font-size="15.5" fill="#c8d3e0"><tspan>    </tspan><tspan fill="#a855f7">pub</tspan><tspan> </tspan><tspan fill="#a855f7">fn</tspan><tspan> create_role(</tspan></text>
+<text x="26" y="159" xml:space="preserve" font-family="ui-monospace, DejaVu Sans Mono, monospace" font-size="15.5" fill="#c8d3e0"><tspan>        ctx: Context&lt;CreateRole&gt;,</tspan></text>
+<text x="26" y="186" xml:space="preserve" font-family="ui-monospace, DejaVu Sans Mono, monospace" font-size="15.5" fill="#c8d3e0"><tspan>        permissions: u64,</tspan></text>
+<text x="26" y="213" xml:space="preserve" font-family="ui-monospace, DejaVu Sans Mono, monospace" font-size="15.5" fill="#c8d3e0"><tspan>    ) -&gt; </tspan><tspan fill="#a855f7">Result</tspan><tspan>&lt;()&gt; { .. }</tspan></text>
+<text x="26" y="240" xml:space="preserve" font-family="ui-monospace, DejaVu Sans Mono, monospace" font-size="15.5" fill="#c8d3e0"><tspan>}</tspan></text>
+<rect x="0" y="337" width="600" height="3" fill="#a855f7" fill-opacity=".85"/>
 </svg>

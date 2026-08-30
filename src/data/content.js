@@ -38,9 +38,9 @@ export const about = {
     "The other half of what I do is taking systems apart. I run independent security reviews of third-party codebases and write up structured findings with reproductions and severity assessments: sixteen defects in a Rust confidential-computing SDK, eight in an agent-orchestration framework, and a mainnet fund-loss review of a privacy pool. Alongside that I do desk research and publish verified knowledge products, most recently a link-checked data-science library for medical laboratory science. I care about code that is clean, reviewable and honest about its limits, and about software that still works on a low-end phone and an unreliable connection.",
   ],
   stats: [
-    { value: 4, suffix: '', label: ['Years', 'Building'] },
+    { value: 4, suffix: '+', label: ['Years', 'Building'] },
     { value: 20, suffix: '+', label: ['Open-Source', 'Projects'] },
-    { value: 24, suffix: '', label: ['Security', 'Findings'] },
+    { value: 20, suffix: '+', label: ['Security', 'Findings'] },
     { value: 4, suffix: '', label: ['Chains', 'Shipped On'] },
     { value: 150, suffix: '', label: ['Sources', 'Verified'] },
   ],
@@ -87,13 +87,13 @@ export const portfolio = {
   projects: [
     {
       title: 'BREACH: an AI-native hacking game on 0G.',
-      image: '/projects/breach.svg',
+      image: '/projects/breach.jpg',
       link: 'https://breach-ebon.vercel.app',
       glow: 'shadow-emerald-800',
     },
     {
       title: 'FrostVault: BTC-collateralized lending on Sui.',
-      image: '/projects/frostvault.svg',
+      image: '/projects/frostvault.jpg',
       link: 'https://frostvault-six.vercel.app',
       glow: 'shadow-sky-800',
     },
@@ -111,7 +111,7 @@ export const portfolio = {
     },
     {
       title: 'Praetor: a policy-gated control plane for autonomous clinic-lab agents.',
-      image: '/projects/praetor.svg',
+      image: '/projects/praetor.jpg',
       link: 'https://g-ojies.github.io/praetor/',
       glow: 'shadow-indigo-800',
     },
@@ -135,7 +135,7 @@ export const portfolio = {
     },
     {
       title: 'Sharp Signal: World Cup betting signals on the TxODDS feed.',
-      image: '/projects/sharp-signal.svg',
+      image: '/projects/sharp-signal.jpg',
       link: 'https://worldcup-sharp-signal.vercel.app',
       glow: 'shadow-violet-800',
     },
