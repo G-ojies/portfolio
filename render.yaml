@@ -4,9 +4,16 @@ services:
   - type: web
     name: greyat-portfolio
     runtime: static
+    branch: main
     buildCommand: npm ci && npm run build
     staticPublishPath: ./dist
     pullRequestPreviewsEnabled: false
+    envVars:
+      # Match the Node the site is developed and built against locally, so a
+      # future default bump on Render's side cannot break the build on its own.
+      - key: NODE_VERSION
+        value: "20"
+
     # Single-page app: every path serves index.html so a deep link or a refresh
     # on /#about does not 404.
     routes:
