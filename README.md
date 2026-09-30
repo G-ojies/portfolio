@@ -41,7 +41,7 @@ Then swap the placeholder art:
 | Services background | `src/assets/service.jpg` | Compass-and-arrow art, shown full colour on desktop only; the heading sits on a dark gradient scrim so it stays readable over it |
 | Project thumbnails | `public/projects/` | One per project, named after it; referenced by path from `content.js`. Projects with a live URL use a real screenshot of the site (`.jpg`); code-only projects use a generated editor card (`.svg`) carrying a genuine excerpt from that repo's source. Re-shoot a screenshot when a site changes |
 | Skill logos | `public/skills/` | Lettermarks in each tech's brand colour; swap for real brand SVGs (simple-icons / devicon) when you want |
-| Favicon | `public/favicon.svg` | |
+| Favicon | `public/favicon.ico`, `favicon-32.png`, `favicon-192.png`, `apple-touch-icon.png` | The GreYat Labs shield, cropped from the logo without the wordmark so it stays readable at tab size |
 
 You can use `.jpg`/`.png` instead of `.svg` — just update the filename in
 `content.js`. The two background images are wired through `tailwind.config.js`
